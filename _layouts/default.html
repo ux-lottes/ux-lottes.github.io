@@ -11,14 +11,14 @@
         gtag('js', new Date());
         gtag('config', '{{ site.google_analytics }}');
         
-        import Typed from 'typed.js';
 
+        document.addEventListener("DOMContentLoaded", function(event) { 
         var options = {
           strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
           typeSpeed: 40
         }
-
-        var typed = new Typed(".element", options);
+          var typed = new Typed(".element", options);
+        });
       </script>
     {% endif %}
     <meta charset="UTF-8">
