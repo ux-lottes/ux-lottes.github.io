@@ -35,8 +35,8 @@ body {
 .scroll {
 	&-down {
 		position: absolute;
-		top: 50%;
-		bottom: -44px;
+		top: auto;
+		bottom: 200px;
 		left: 50%;
 		display: inline-block;
 		width: auto;
