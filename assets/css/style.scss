@@ -7,8 +7,8 @@
 $dark-grey:   #222426;
 $middle-blue: #00f6ed;
 $light-white: #fdfdff;
-$light-blue:  #edf9f9;
-$dark-blue:  #546a7b;
+$light-blue:  #edf9e9;
+$dark-blue:  #546a6b;
 
 body {
   font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -19,7 +19,7 @@ body {
   background-image: none;
   color: $light-white;
   .blue-font {
-    color: $light-blue;
+    color: $dark-blue;
   }
 }
 .fill {
