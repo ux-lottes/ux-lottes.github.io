@@ -7,3 +7,12 @@ body {
   font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: $body-text-color;
 }
+.page-header {
+  background-color: #222426;
+  background-image: none;
+  color: #fdfdff;
+}
+.fill {
+  height: 100%;
+  min-height: 100%;
+}
