@@ -8,7 +8,7 @@ body {
   color: $body-text-color;
 }
 
-#container {
+#flipper {
   color:#999;
   text-transform: uppercase;
   font-size:36px;
@@ -18,11 +18,10 @@ body {
   width:100%;
   bottom:45%;
   display:block;
-}
-
-#flip {
-  height:50px;
-  overflow:hidden;
+  #flip {
+    height:50px;
+    overflow:hidden;
+  }
 }
 
 #flip > div > div {
@@ -42,6 +41,9 @@ body {
 }
 #flip div:first-child div {
   background:#4ec7f3;
+}
+#flip div:second-child div {
+  background:#23c733;
 }
 #flip div:last-child div {
   background:#DC143C;
