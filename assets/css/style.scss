@@ -34,9 +34,10 @@ body {
 }
 .scroll-downs {
   position: absolute;
-  top: 0;
+  cursor: pointer;
+  top: auto;
   right: 0;
-  bottom: 0;
+  bottom: 100px;
   left: 0;
   margin: auto;
   width: 34px;
