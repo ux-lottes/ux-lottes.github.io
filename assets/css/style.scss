@@ -32,38 +32,65 @@ body {
     transform: translate(-50%, -50%);
   }
 }
-.scroll-downs {
-  position: absolute;
-  cursor: pointer;
-  top: auto;
-  right: 0;
-  bottom: 100px;
-  left: 0;
-  margin: auto;
-  width: 34px;
-  height: 55px;
-  .mousey {
-    width: 3px;
-    padding: 10px 15px;
-    height: 35px;
-    border: 2px solid #fff;
-    border-radius: 25px;
-    opacity: 0.75;
-    box-sizing: content-box;
-    .scroller {
-      width: 3px;
-      height: 10px;
-      border-radius: 25%;
-      background-color: #fff;
-      animation-name: scroll;
-      animation-duration: 2.2s;
-      animation-timing-function: cubic-bezier(.15,.41,.69,.94);
-      animation-iteration-count: infinite;
-    }
-  }
+.scroll {
+	&-down {
+		position: absolute;
+		top: 50%;
+		bottom: -44px;
+		left: 50%;
+		display: inline-block;
+		width: auto;
+		margin: 0 auto;
+		text-align: center;
+		background-color: transparent;
+		border: none;
+		transform: translate(-50%, -50%);
+	}
+
+	&-mouse {
+		position: relative;
+		display: inline-block;
+		width: 34px;
+		height: 54px;
+		margin: 0 auto;
+		border: 2px solid #fff;
+		border-radius: 20px;
+	}
+
+	&-wheel {
+		position: absolute;
+		top: 14px;
+		left: 13px;
+		width: 4px;
+		height: 4px;
+		background-color: #fff;
+		border-radius: 50%;
+		animation: scrollDown 2.5s infinite;
+	}
 }
-@keyframes scroll {
-  0% { opacity: 0; }
-  10% { transform: translateY(0); opacity: 1; }
-  100% { transform: translateY(15px); opacity: 0;}
+@keyframes scrollDown {
+	0% {
+		top: 14px;
+		opacity: 0;
+	}
+
+	15% {
+		top: 14px;
+		opacity: 1;
+	}
+
+	30% {
+		top: 14px;
+		opacity: 1;
+	}
+
+	45% {
+		top: 34px;
+		opacity: 1;
+	}
+
+	100% {
+		top: 34px;
+		opacity: 0;
+	}
 }
