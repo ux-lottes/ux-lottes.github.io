@@ -7,7 +7,7 @@
 $dark-grey:   #222426;
 $middle-blue: #00f6ed;
 $light-white: #fdfdff;
-$light-blue:  #edf9e9;
+$light-blue:  #00f6ed;
 $dark-blue:  #546a7b;
 
 body {
@@ -19,7 +19,7 @@ body {
   background-image: none;
   color: $light-white;
   .blue-font {
-    color: $dark-blue;
+    color: $light-blue;
   }
 }
 .fill {
