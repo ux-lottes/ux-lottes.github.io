@@ -8,7 +8,7 @@ $dark-grey:   #222426;
 $middle-blue: #00f6ed;
 $light-white: #fdfdff;
 $light-blue:  #edf9e9;
-$dark-blue:  #546a6b;
+$dark-blue:  #546a7b;
 
 body {
   font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -28,7 +28,7 @@ body {
   h1 {
     left: 50%;
     position: relative;
-    top: 50%;
+    top: 40%;
     transform: translate(-50%, -50%);
   }
 }
