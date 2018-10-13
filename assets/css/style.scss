@@ -11,7 +11,7 @@ $light-blue:  	#00f6ed;
 $dark-blue:  	#546a7b;
 
 @import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,900');
-@import "burger";
+@import url("_burger.scss");
 
 body {
   font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
