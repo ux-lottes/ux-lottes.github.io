@@ -33,7 +33,7 @@ $('document').ready(function () {
       trigger.removeClass('is-closed');
       trigger.addClass('is-open');
       nav.addClass('fadeIn');
-      isClosed = true;
+      isClosed = false;
     }
   }
 
