@@ -19,7 +19,7 @@
 	li {
 			transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 			opacity: 0;
-			transform: translate(-600px, -600px) scale(0.2, 0.2);
+			transform: translateY(-500px) scale(0.2, 0.2);
 		a {
 			display: block;
 			font-size: 2em;
