@@ -33,7 +33,7 @@ function burgerTime() {
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   handleTyping ();    
-  bugerInit();
+  burgerInit();
 });
 
 /* soft scroll */
