@@ -1,10 +1,10 @@
 function handleTyping () {
  var options = {
-          strings: ["UI / UX Designer", "Frontend Developer"],
-              typeSpeed: 50,
-              starDelay: 200,
+          strings: [ "Frontend Developer", "UI / UX Designer"],
+              typeSpeed: 70,
+              starDelay: 250,
               backDelay: 600,
-              loop: true,
+              loop: false,
               showCursor: true,
               cursorChar: "|"
         }
