@@ -12,7 +12,9 @@ function handleTyping () {
 }
 
 $('document').ready(function () {
-  if ($('#hamburger')) {
+ var type = $('#hamburger');
+ console.log(type);
+  if (type) {
    handleTyping (); 
   }
   var trigger = $('#hamburger'),
