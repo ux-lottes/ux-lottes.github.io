@@ -9,6 +9,10 @@
   visibility: hidden;
   transition: all .6s ease-in-out;
   opacity: 0;
+  &.fadeIn {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
   ul {
     text-align: center;
     padding: 20px;
