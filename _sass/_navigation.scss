@@ -17,31 +17,24 @@
     margin: 0px auto;
     list-style: none;
     li a {
-      display: block;
-      font-size: 2em;
-      font-weight: 600;
-      line-height: 66px;
-      color: $light-blue;
+	display: block;
+	font-size: 2em;
+	font-weight: 600;
+	line-height: 66px;
+	color: $light-blue;
+	animation: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	opacity: 0;
+	transform: translateY(200px) scale(.2, .2);
     }
   }
   &.fadeIn {
     opacity: 1;
     visibility: visible;
     ul{
-      li a {
-      	animation: scaleAnimation 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      }
-    }
-  }
-}
-@keyframes scaleAnimation {
-	from {
-		opacity: 0;
-		transform: translateY(200px) scale(.2, .2);
-	}
-	
-	to {
+	li a {
 		opacity: 1;
 		transform: scale(1, 1);
-	}
+      	}
+    }
+  }
 }
