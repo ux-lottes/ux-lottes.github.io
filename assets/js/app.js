@@ -12,9 +12,9 @@ function handleTyping () {
 }
 
 $('document').ready(function () {
- var type = $('.element');
+ var type = document.getElementsByClassName('element');
  console.log(type);
-  if (type) {
+  if (type.length()) {
    handleTyping (); 
   }
   var trigger = $('#hamburger'),
