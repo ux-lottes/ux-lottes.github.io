@@ -22,13 +22,20 @@
       font-weight: 600;
       line-height: 66px;
       color: $light-blue;
-      transform:translate3d(0,-200px,0);
       animation: 2s bounced-word ;
+      transform:translate3d(0,-200px,0);
     }
   }
   &.fadeIn {
     opacity: 1;
     visibility: visible;
+    ul{
+      li {
+        a {
+          transform:translate3d(0,0,0);
+        }
+      }
+    }
   }
 }
 @keyframes bounced-word {
