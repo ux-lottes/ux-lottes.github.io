@@ -18,13 +18,13 @@
     padding: 20px;
     display: table-cell;
     vertical-align: middle;
-    width: 100%;
+    margin: 0px auto;
+    list-style: none;
     li a {
-      padding: 20px;
       display: block;
-      font-size: 30px;
-      color: black;
-      margin-top: 80px;
+      font-size: 22px;
+      line-height: 66px
+      color: $light-blue;
       transition: all .6s ease-in-out;
     }
   }
