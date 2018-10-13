@@ -12,7 +12,7 @@ function handleTyping () {
 }
 
 $('document').ready(function () {
- var type = $('#hamburger');
+ var type = $('#element');
  console.log(type);
   if (type) {
    handleTyping (); 
