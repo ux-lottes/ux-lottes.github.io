@@ -22,7 +22,6 @@
       font-weight: 600;
       line-height: 66px;
       color: $light-blue;
-      animation: scaleAnimation 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
   }
   &.fadeIn {
@@ -30,7 +29,7 @@
     visibility: visible;
     ul{
       li a {
-        transform:translate3d(0,0,0);
+      	animation: scaleAnimation 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
       }
     }
   }
