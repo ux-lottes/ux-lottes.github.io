@@ -22,9 +22,9 @@
 	font-weight: 600;
 	line-height: 66px;
 	color: $light-blue;
-  	transition: all .6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  	transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	opacity: 0;
-	transform: translateY(200px) scale(.2, .2);
+	transform: translate(400px, 400px) scale(0.2, 0.2);
     }
   }
   &.fadeIn {
