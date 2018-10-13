@@ -1,5 +1,9 @@
 $animation: 0.6s;
-$scale: 1;			 
+$scale: 1;	
+
+.navigation {
+  position: fixed;	
+}
 
 .hamburglar {
   transform: scale($scale);
@@ -12,7 +16,6 @@ $scale: 1;
 	user-select: none;
 }
 
-// transition mask
 .path-burger {
   position: absolute;
   top: 0;
