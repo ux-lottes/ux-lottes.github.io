@@ -14,7 +14,7 @@ function handleTyping () {
 $('document').ready(function () {
  var type = document.getElementsByClassName('element');
  console.log(type);
-  if (type.length()) {
+  if (type.length) {
    handleTyping (); 
   }
   var trigger = $('#hamburger'),
