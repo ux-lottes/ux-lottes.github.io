@@ -12,7 +12,9 @@ function handleTyping () {
 }
 
 $('document').ready(function () {
-  handleTyping (); 
+  if ($('#hamburger')) {
+   handleTyping (); 
+  }
   var trigger = $('#hamburger'),
       isClosed = true,
       nav = $(".full-screen-nav");
