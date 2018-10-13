@@ -2,7 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,900');
 
 $dark-grey:   	#30363f;
 $light-grey: 	#505d5d;
@@ -10,6 +9,9 @@ $middle-blue: 	#00f6ed;
 $light-white: 	#fdfdff;
 $light-blue:  	#00f6ed;
 $dark-blue:  	#546a7b;
+
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,900');
+@import "burger";
 
 body {
   font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
