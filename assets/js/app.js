@@ -14,20 +14,23 @@ function handleTyping () {
 $('document').ready(function () {
   handleTyping (); 
   var trigger = $('#hamburger'),
-      isClosed = true;
+      isClosed = true,
+      nav = $(".full-screen-nav");
 
   trigger.click(function () {
     burgerTime();
   });
 
   function burgerTime() {
-    if (isClosed == true) {
+    if (isClosed == false) {
       trigger.removeClass('is-open');
       trigger.addClass('is-closed');
-      isClosed = false;
+      isClosed = true;
+      nav.removeClass('fadeIn');
     } else {
       trigger.removeClass('is-closed');
       trigger.addClass('is-open');
+      nav.addClass('fadeIn');
       isClosed = true;
     }
   }
