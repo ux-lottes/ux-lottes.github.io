@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 /* soft scroll */
 $(function() {
-  $('.scroll').on('click', function(e) {
+  $('.scroll-down').on('click', function(e) {
     e.preventDefault();
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
   });
