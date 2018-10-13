@@ -43,6 +43,6 @@
 }
 @for $i from 1 through 10 {
     .full-screen-nav ul li:nth-child(#{$i}n) {
-        animation-delay: #{$i * 0.15}s;
+        animation-delay: #{$i * 0.35}s;
     }
 }
