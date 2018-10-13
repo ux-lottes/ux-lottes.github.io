@@ -11,14 +11,6 @@ function handleTyping () {
   var typed = new Typed(".element", options);
 }
 
-function burgerInit() {
- var trigger = $('#hamburger'),
-     isClosed = true;
- trigger.click(function () {
-      burgerTime();
-  });
-}
-
 function burgerTime() {
   if (isClosed == true) {
     trigger.removeClass('is-open');
@@ -33,7 +25,11 @@ function burgerTime() {
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   handleTyping ();    
-  burgerInit();
+  var trigger = $('#hamburger'),
+     isClosed = true;
+ trigger.click(function () {
+      burgerTime();
+  });
 });
 
 /* soft scroll */
