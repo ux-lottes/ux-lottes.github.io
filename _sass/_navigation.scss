@@ -22,48 +22,27 @@
       font-weight: 600;
       line-height: 66px;
       color: $light-blue;
-      animation: 2s bounced-word ;
-      transform:translate3d(0,-200px,0);
+      animation: scaleAnimation 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
   }
   &.fadeIn {
     opacity: 1;
     visibility: visible;
     ul{
-      li {
-        a {
-          transform:translate3d(0,0,0);
-        }
+      li a {
+        transform:translate3d(0,0,0);
       }
     }
   }
 }
-@keyframes bounced-word {
-  8% {
-    transform:translate3d(0,-45px,0) scaleY(0.4);
-    transform-origin:left bottom 0;
-  }
-  25% {
-    transform:translate3d(0,-110px,0) scaleY(1.4);
-  }
-  40% {
-    transform:translate3d(0,0,0) scaleY(0.6);
-    transform-origin:left bottom 0;
-  }
-  50% {
-    transform:translate3d(0,0,0) scaleY(1.2);
-    transform-origin:left bottom 0;
-  }
-  60% {
-    transform:translate3d(0,0,0) scaleY(1);
-    transform-origin:left bottom 0;
-  }
-  80% {
-    opacity:1;
-    transform:translate3d(0,0,0);
-  }
-  100% {
-    opacity:0;
-    transform:translate3d(0,50px,0);
-  }
+@keyframes scaleAnimation {
+	from {
+		opacity: 0;
+		transform: translateY(200px) scale(.2, .2);
+	}
+	
+	to {
+		opacity: 1;
+		transform: scale(1, 1);
+	}
 }
