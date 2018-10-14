@@ -21,7 +21,9 @@ body {
 }
 .page-header {
   background-color: $dark-grey;
-  background-image: none;
+  background-image: url("/assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: $light-white;
   .blue-font {
     color: $light-blue;
