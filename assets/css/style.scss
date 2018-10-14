@@ -21,6 +21,13 @@ body {
   font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: $body-text-color;
 }
+h1 {
+	text-align:left;
+	.small {
+		font-size:0.75em;
+		font-weight:100;
+	}
+}
 h2, h3, h4, h5, h6 {
 	color: $title-dark;
 	font-weight: 100 !important;
