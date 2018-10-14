@@ -23,7 +23,7 @@ body {
 }
 h2, h3, h4, h5, h6 {
 	color: $title-dark;
-	font-weight: 400;
+	font-weight: 100 !important;
 }
 .page-header {
   background-color: $dark-grey;
@@ -43,7 +43,7 @@ h2, h3, h4, h5, h6 {
 }
 .main-content {
 	&.main-about {
-		border-botton: 1px solid;
+		border-bottom: 1px solid #dedede;
 	}
 }
 
