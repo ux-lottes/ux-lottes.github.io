@@ -43,7 +43,15 @@ h2, h3, h4, h5, h6 {
     color: $light-blue;
   }
 }
-
+.image-wrapper {
+    background-color: $light-white;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
 .main-wrapper {
 	background-color: $light-white;
 	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.8);
