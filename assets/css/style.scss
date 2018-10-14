@@ -35,8 +35,15 @@ body {
 	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.8);
 	z-index: 1;
 }
-.main-about {
+.main-content {
+	background-color: $light-grey;
+	color: $light-white;
+	&.main-about {
+		background-color: $light-white;
+		color: $dark-grey;
+	}
 }
+
 .fill {
   height: 100vh;
   min-height: 100%;
