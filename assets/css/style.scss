@@ -28,7 +28,7 @@ body {
   .blue-font {
     color: $light-blue;
   }
-	  :after {
+	&:after {
 	  content: '';
 	  position: absolute;
 	  top: 0; left: 0; bottom: 0; right: 0;
