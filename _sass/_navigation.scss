@@ -28,14 +28,31 @@
 			font-weight: 400;
 			line-height: 66px;
 			color: $light-white;
-			transform: scale(1, 1);
 			transition: all 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			:after {
+			  display: block;
+			  position: absolute;
+			  margin: 0;
+			  top: 0;
+			  bottom: 0;
+			  left: 0;
+			  right: 0;
+			  content: '.';
+			  color: transparent;
+			  width: 1px;
+			  height: 1px;
+			  border-radius: 50%;
+			  background: transparent;
+			}
 			&:hover,
 			&:active,
 			&:focus {
 				text-decoration:none;
 				color: $light-blue;
-				transform: scale(1.1, 1.15);
+				font-weight: 600;
+				&:after {
+				  -webkit-animation: circle 1.5s ease-in forwards;
+				}
 			}
 		    }
 	}
