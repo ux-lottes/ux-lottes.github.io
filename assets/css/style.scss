@@ -10,7 +10,7 @@ $light-white: 	#fdfdff;
 $light-blue:  	#00f6ed;
 $dark-blue:  	#546a7b;
 $title-dark:	#3b455a;
-$title-light:	#fdfdff;
+$title-light:	#3e3e3e;
 
 @import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,900');
 @import "_burger";
@@ -30,8 +30,8 @@ h1 {
 	}
 }
 h2, h3, h4, h5, h6 {
-	color: $title-dark;
-	font-weight: 100 !important;
+	color: $title-dark !important;
+    	font-weight: 600 !important;
 }
 .page-header {
   background-color: $dark-grey;
@@ -48,6 +48,7 @@ h2, h3, h4, h5, h6 {
 	background-color: $light-white;
 	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.8);
 	z-index: 1;
+	font-wight: 300;
 }
 .main-content {
 	&.main-about {
