@@ -55,7 +55,7 @@
 			&:active,
 			&:focus {
 				text-decoration:none;
-				color: $dark-grey;
+				font-weight:600;
 				&:after {
 				  -webkit-animation: circle 1.5s ease-in forwards;
 				}
@@ -90,11 +90,11 @@
     margin: auto;
     height: 1px;
     z-index: -1;
-    background: $light-white;
+    background: $dark-grey;
     border-radius: 100%;
   }
   100% {
-    background: #aaa;
+    background: $light-grey;
     height: 1000%;
     width: 1000%;
     z-index: -1;
