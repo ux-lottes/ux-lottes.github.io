@@ -42,14 +42,8 @@ h1, h2, h3, h4, h5, h6 {
 	z-index: 1;
 }
 .main-content {
-	background-color: $light-grey;
-	color: $light-white;
-	h1, h2, h3, h4, h5, h6 {
-		color: $title-light;
-	}
 	&.main-about {
-		background-color: $light-white;
-		color: $dark-grey;
+		border-botton: 1px solid;
 	}
 }
 
