@@ -30,8 +30,8 @@
 			&:active,
 			&:focus {
 				text-decoration:none;
-				font-weight:600;
 				color: $light-blue;
+				transform: scale(1.1, 1.15);
 			}
 		    }
 	}
