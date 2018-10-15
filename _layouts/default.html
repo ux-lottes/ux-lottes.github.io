@@ -36,6 +36,15 @@
         <h3>Über mich</h3>
         Ich bin seit über 10 Jahren Frontend Developer und UI / UX Designer und habe schon Projekte aus den verschiedensten bereichen begleitet. Ich wohne und arbeite in Saarbrücken. 
       </div>
+      <div class="main-content main-blog">
+        <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      </div>
       <main class="main-content" role="main">
         {{ content }}
       </main>
