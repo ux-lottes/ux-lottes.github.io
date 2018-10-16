@@ -68,6 +68,15 @@ h2, h3, h4, h5, h6 {
 	&.main-about {
 		border-bottom: 1px solid #dedede;
 	}
+	&.main-logos{
+		text-align:center;
+		img {
+			width: 20%;
+			height: auto;
+			float: left;
+			margin: 2%;
+		}
+	}
 }
 
 .fill {
