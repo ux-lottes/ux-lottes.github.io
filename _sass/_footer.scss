@@ -27,13 +27,16 @@ footer {
     right: 0;
     top: 50%;
     transform: translate(-50px, -50%);
-    ul li {
-      display: inline-block;
-      list-style: none;
-      width: 60px;
-      height: 10px;
-      a {
-        color:white;
+    ul {
+      margin: 0;
+      li {
+        display: inline-block;
+        list-style: none;
+        width: 60px;
+        height: 10px;
+        a {
+          color:white;
+        }
       }
     }
   }
