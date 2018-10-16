@@ -1,15 +1,15 @@
 .main-blog{
-
   ul {
     list-style:none;
     padding: 0px !important;
     li{
-      display: inline-block;
-      width: 33%;
-      float: left;
-      padding: 10px;
-      background: #f0f1f1;
+    /* display: inline-block; */
+    text-align: center;
+    /* width: 50%; */
+    /* float: left; */
+    padding: 10px;
+    min-height: 150px;
+    background: #f0f1f1;
     }
   }
-
 }
