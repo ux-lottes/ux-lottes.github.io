@@ -23,7 +23,9 @@
   <body>
     {% include header.html %}
     <header class="page-header" role="banner" id="page-header">
-      <h1 class="project-name">{{ page.title | default: site.github.repository_name }}</h1>
+      <div class="main-content">
+        <h1 class="project-name">{{ page.title | default: site.github.repository_name }}</h1>
+      </div>
     </header>
     <div class="main-wrapper">
       <main id="content" class="main-content" role="main">
