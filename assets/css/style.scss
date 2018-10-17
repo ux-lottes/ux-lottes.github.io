@@ -45,6 +45,9 @@ h2, h3, h4, h5, h6 {
   .blue-font {
         color: $light-blue;
   }
+  .main-content{
+	padding:0px !important;
+  }
 }
 .image-wrapper {
     background-color: $light-white;
@@ -156,19 +159,4 @@ h2, h3, h4, h5, h6 {
 		opacity: 0;
 	}
 }
-@media screen and (max-width: 64em) and (min-width: 42em)
-{
-	.page-header{
-		.main-content{
-			padding:0px !important;
-		}
-	}
-}
-@media screen and (min-width: 62em)
-{
-	.page-header{
-		.main-content{
-			padding:0px !important;
-		}
-	}
-}
+
