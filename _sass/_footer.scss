@@ -54,9 +54,12 @@ footer {
   }
   nav {
     clear: both;
-    position: inherit;
-    top: 100px;
+    position: inherit !impostant;
+    top: 100px !important;
     margin: 0px auto;
+    text-align: center;
+  }
+  .copyright {
     text-align: center;
   }
 }
