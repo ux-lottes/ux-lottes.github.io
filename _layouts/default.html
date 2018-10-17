@@ -41,7 +41,7 @@
         <ul>
         {% for post in site.categories.UX %}
           <li>
-            <h3>{{ post.title }}</h3>
+            <h3>{{ post.title }}</h3><i>{{ post.date | date_to_string }}</i><br/>
             {{ post.description }}
             <a class="link-btn" href="{{ post.url }}">read more ...</a>
           </li>
