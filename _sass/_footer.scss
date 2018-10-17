@@ -46,3 +46,17 @@ footer {
     line-height: 2rem;
   }
 }
+
+@media screen and (max-width: 42em)
+{
+  footer {
+    height:200px;
+  }
+  nav {
+    clear: both;
+    position: inherit;
+    top: 100px;
+    margin: 0px auto;
+    text-align: center;
+  }
+}
