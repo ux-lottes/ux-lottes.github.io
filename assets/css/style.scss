@@ -156,3 +156,11 @@ h2, h3, h4, h5, h6 {
 		opacity: 0;
 	}
 }
+@media screen and (max-width: 64em) and (min-width: 42em)
+{
+	.page-header{
+		.main-content{
+			padding:0px !important;
+		}
+	}
+}
