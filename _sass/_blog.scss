@@ -13,7 +13,10 @@
     li{
     padding: 2rem;
     min-height: 150px;
-    background: #f0f1f1;
+    background: #fefefe;
+    -webkit-box-shadow: 11px 11px 90px -13px rgba(207,207,207,1);
+    -moz-box-shadow: 11px 11px 90px -13px rgba(207,207,207,1);
+    box-shadow: 11px 11px 90px -13px rgba(207,207,207,1);
     }
   }
 }
